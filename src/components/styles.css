@@ -1,0 +1,15 @@
+/* button component styles */
+.button {
+  background-color: var(--button-color, pink);
+  text-align: center;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+}
+
+.button:hover {
+  background-color: #ffd84d;
+}
+/* button component styles */
