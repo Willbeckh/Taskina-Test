@@ -24,10 +24,10 @@ html {
   font-size: 16px;
 }
 
-.page-list {
+.pageList {
   height: 200px;
   overflow-y: auto;
-  /* line-height: 30px; */
+  line-height: 30px;
   padding-bottom: 0;
 }
 
