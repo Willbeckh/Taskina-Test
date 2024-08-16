@@ -1,7 +1,12 @@
 import Proptypes from "prop-types";
+import './styles.css'
 
 const Button = ({ color, label }) => {
-  return <button style={{ backgroundColor: color }}>{label}</button>;
+  return (
+    <button className="button" style={{ "--button-color": color }}>
+      {label}
+    </button>
+  );
 };
 
 Button.propTypes = {
