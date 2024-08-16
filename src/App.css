@@ -32,6 +32,10 @@ html {
   padding-bottom: 0;
 }
 
+.pageList label{
+  margin: auto 0;
+}
+
 hr {
   padding: 0;
   display: block;
