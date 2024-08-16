@@ -1,5 +1,6 @@
-import React from "react";
+// import React from "react";
 import "./App.css";
+import Button from "./components/Button";
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <div className="content">
         <h3>All pages</h3>
         <hr />
-        <div className="page-list">
+        <div className="pageList">
           <p>Page 1</p>
           <p>Page 1</p>
           <p>Page 1</p>
@@ -16,7 +17,7 @@ const App = () => {
           <p>Page 1</p>
         </div>
         <hr />
-        <button>doneee</button>
+        <Button color="#fece22" label="Done" />
       </div>
     </div>
   );
